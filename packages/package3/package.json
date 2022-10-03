@@ -5,6 +5,6 @@
     "@sentry/node": "7.14.0"
   },
   "devDependencies": {
-    "@types/node": "16.11.62"
+    "@types/node": "18.8.0"
   }
 }
