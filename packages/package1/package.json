@@ -1,0 +1,10 @@
+{
+  "name": "@root/package1",
+  "dependencies": {
+    "@fastify/helmet": "^10.0.0",
+    "@sentry/node": "^7.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.62"
+  }
+}
