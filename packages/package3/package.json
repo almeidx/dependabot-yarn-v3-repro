@@ -1,5 +1,6 @@
 {
   "name": "@root/package3",
+  "private": true,
   "dependencies": {
     "@sentry/node": "^7.14.0"
   },
