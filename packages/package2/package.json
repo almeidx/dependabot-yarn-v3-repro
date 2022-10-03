@@ -2,10 +2,10 @@
   "name": "@root/package2",
   "private": true,
   "dependencies": {
-    "@fastify/helmet": "^10.0.0",
-    "@sentry/node": "^7.14.0"
+    "@fastify/helmet": "10.0.0",
+    "@sentry/node": "7.14.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.62"
+    "@types/node": "16.11.62"
   }
 }
