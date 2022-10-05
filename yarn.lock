@@ -21,7 +21,7 @@ __metadata:
   dependencies:
     "@fastify/helmet": 10.0.0
     "@sentry/node": 7.14.0
-    "@types/node": 16.11.62
+    "@types/node": 18.8.2
   languageName: unknown
   linkType: soft
 
@@ -31,7 +31,7 @@ __metadata:
   dependencies:
     "@fastify/helmet": 10.0.0
     "@sentry/node": 7.14.0
-    "@types/node": 16.11.62
+    "@types/node": 18.8.2
   languageName: unknown
   linkType: soft
 
@@ -40,7 +40,7 @@ __metadata:
   resolution: "@root/package3@workspace:packages/package3"
   dependencies:
     "@sentry/node": 7.14.0
-    "@types/node": 16.11.62
+    "@types/node": 18.8.2
   languageName: unknown
   linkType: soft
 
@@ -100,10 +100,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:16.11.62":
-  version: 16.11.62
-  resolution: "@types/node@npm:16.11.62"
-  checksum: 7086105ded0005a9dc80688250c3d6a8aa01a2bcee3e3934fd3f731786b0e9e47a47fb72be7bfa96f3266bdb14aa9713931ea108d3445a99e35ea127b2d2346e
+"@types/node@npm:18.8.2":
+  version: 18.8.2
+  resolution: "@types/node@npm:18.8.2"
+  checksum: b7c74dea0e835fb7faf69b4a2e87d43c1d228d88adacdff464d9e92d18a0b43bec6147b9eb3287650ac75fe5af730c53391869d02175e6b032dcb99ae2f54c92
   languageName: node
   linkType: hard
 
@@ -177,7 +177,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root@workspace:."
   dependencies:
-    "@types/node": 16.11.62
+    "@types/node": 18.8.2
   languageName: unknown
   linkType: soft
 
