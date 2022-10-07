@@ -20,7 +20,7 @@ __metadata:
   resolution: "@root/package1@workspace:packages/package1"
   dependencies:
     "@fastify/helmet": 10.0.0
-    "@sentry/node": 7.14.0
+    "@sentry/node": 7.14.2
     "@types/node": 16.11.62
   languageName: unknown
   linkType: soft
@@ -30,7 +30,7 @@ __metadata:
   resolution: "@root/package2@workspace:packages/package2"
   dependencies:
     "@fastify/helmet": 10.0.0
-    "@sentry/node": 7.14.0
+    "@sentry/node": 7.14.2
     "@types/node": 16.11.62
   languageName: unknown
   linkType: soft
@@ -39,64 +39,64 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@root/package3@workspace:packages/package3"
   dependencies:
-    "@sentry/node": 7.14.0
+    "@sentry/node": 7.14.2
     "@types/node": 16.11.62
   languageName: unknown
   linkType: soft
 
-"@sentry/core@npm:7.14.0":
-  version: 7.14.0
-  resolution: "@sentry/core@npm:7.14.0"
+"@sentry/core@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@sentry/core@npm:7.14.2"
   dependencies:
-    "@sentry/hub": 7.14.0
-    "@sentry/types": 7.14.0
-    "@sentry/utils": 7.14.0
+    "@sentry/hub": 7.14.2
+    "@sentry/types": 7.14.2
+    "@sentry/utils": 7.14.2
     tslib: ^1.9.3
-  checksum: 3c8532992c83c99c6fd4bde77620078e8bdeb39fbc1c796cbc7f9701fe373e91e990a9d8740d4c1836167b7eeae5907233feeafe17ab38c74b64e65a8008cdce
+  checksum: e3603ecb702199a7d17ef74c05570209101a4a6c63efc85985ff24bb2da863b5f18e141832922a8f6483c47357b5e52f99ee1d1dc30fad151e19df5091306c59
   languageName: node
   linkType: hard
 
-"@sentry/hub@npm:7.14.0":
-  version: 7.14.0
-  resolution: "@sentry/hub@npm:7.14.0"
+"@sentry/hub@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@sentry/hub@npm:7.14.2"
   dependencies:
-    "@sentry/types": 7.14.0
-    "@sentry/utils": 7.14.0
+    "@sentry/types": 7.14.2
+    "@sentry/utils": 7.14.2
     tslib: ^1.9.3
-  checksum: 7a8302bfe948d520c3505e1bf4fecc409a058e723797c9f20d6b4e2cd3be9298d623e2b220f254fc39fb8f3f5c243e39b661fc8aeb7a002b6ab45967c02d88a2
+  checksum: ce65911e83a31a16791ddceb6869d7405e2b44076b5c679707a1f18ec0d58eb29ecd4082862a078b336ddbd2678f0c1459ad613366a5794bf1ccb45796919a11
   languageName: node
   linkType: hard
 
-"@sentry/node@npm:7.14.0":
-  version: 7.14.0
-  resolution: "@sentry/node@npm:7.14.0"
+"@sentry/node@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@sentry/node@npm:7.14.2"
   dependencies:
-    "@sentry/core": 7.14.0
-    "@sentry/hub": 7.14.0
-    "@sentry/types": 7.14.0
-    "@sentry/utils": 7.14.0
+    "@sentry/core": 7.14.2
+    "@sentry/hub": 7.14.2
+    "@sentry/types": 7.14.2
+    "@sentry/utils": 7.14.2
     cookie: ^0.4.1
     https-proxy-agent: ^5.0.0
     lru_map: ^0.3.3
     tslib: ^1.9.3
-  checksum: 4bf3decdd4afe48cc7020fc6420c0a84a12ed48120294837f3cb66ba2e8e3426445528a6cbdbf09022203ed9eaea22730dba37d0e6fb07297d16de40b64cce08
+  checksum: e464c54785352c1eccb868e7e6dd7e06241975c1e086d83e2573764748d2fb166328ec6caa1f002703315e9bfd0baf4e5cd4fcc76d436d66dcb07e5929918783
   languageName: node
   linkType: hard
 
-"@sentry/types@npm:7.14.0":
-  version: 7.14.0
-  resolution: "@sentry/types@npm:7.14.0"
-  checksum: daae2f0609790ae619c359b27d6a87269c1e136374514e3b41c87c0fe40ce3171822ebcdc2fbc05fdda86725d42147e1562cf32973c26c9179f2e5ba751d3396
+"@sentry/types@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@sentry/types@npm:7.14.2"
+  checksum: 823e2bb586018394ef5817c4855ab51869583baeb2f5fd914de94a438e229c288699be199b03bc87099b8239b16d79781943c75f500ce2c83ae327da81adbebd
   languageName: node
   linkType: hard
 
-"@sentry/utils@npm:7.14.0":
-  version: 7.14.0
-  resolution: "@sentry/utils@npm:7.14.0"
+"@sentry/utils@npm:7.14.2":
+  version: 7.14.2
+  resolution: "@sentry/utils@npm:7.14.2"
   dependencies:
-    "@sentry/types": 7.14.0
+    "@sentry/types": 7.14.2
     tslib: ^1.9.3
-  checksum: f0587a542d1ac3b47e8fabe0237b1339de8e928d9be46e937e33c2b174f8b79aa5520d692ff51377cafd67de297aa052feca11e476b2b7d948d59aa3c81dcf5d
+  checksum: 357ab6310b561325bbe72dc12946f96065838ed250487dd358a19ff6571014046be08c108097979f85fc7b4566c26977def70bb4fd4493acfe1024b31fe239e2
   languageName: node
   linkType: hard
 
